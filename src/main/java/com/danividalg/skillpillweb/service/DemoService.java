@@ -10,6 +10,7 @@ import com.danividalg.skillpillweb.database.MongoDB;
 import com.danividalg.skillpillweb.database.model.Hello;
 
 @RestController
+//@CrossOrigin(origins = {"http://localhost:3000"})
 @RequestMapping("/api")
 public class DemoService {
 	@Autowired
