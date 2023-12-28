@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "clerk.jwks.json",
+    "type": "java.lang.String",
+    "description": "Clerk URL to get the public key"
+  },
+  {
+    "name": "origins.valid",
+    "type": "java.lang.String",
+    "description": "List of valid origins"
+  },
+  {
+    "name": "clerk.issuers",
+    "type": "java.lang.String",
+    "description": "Valid Clerk issuers"
+  }
+]}
