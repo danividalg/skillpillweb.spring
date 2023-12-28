@@ -52,5 +52,14 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<excludes>
+					<exclude>application.properties</exclude>
+					<exclude>cert/skillpillweb-spring-service.spring.p12</exclude>
+				</excludes>
+			</resource>
+		</resources>
 	</build>
 </project>
